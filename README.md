@@ -1,6 +1,10 @@
 # TicTacToe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+A demo Tic-Tac-Toe game written in Angular 9 deployed as a PWA.
+
+The live game can be found here: `https://tic-tac-toe-angular-4af3d.firebaseapp.com/`.
+
+You can add the app to your home screen so that it will work offline.
 
 ## Development server
 

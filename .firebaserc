@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bounti-dev-34f18": {
+      "hosting": {
+        "tic-tac-toe": [
+          "bounti-dev-34f18"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bounti-dev-34f18"
+  }
+}
