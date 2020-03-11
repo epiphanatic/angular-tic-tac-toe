@@ -17,17 +17,17 @@ export class BoardComponent implements OnInit {
     this.newGame();
   }
 
-  newGame() {
+  newGame(): void {
     this.squares = Array(9).fill(null);
     this.winner = null;
     this.xIsNext = true;
   }
 
-  get player() {
+  get player(): string {
     return this.xIsNext ? 'X' : 'O';
   }
 
-  makeMove(idx: number) {
+  makeMove(idx: number): void {
     // if square has not been clicked / tapped yet,
     // and there is no winner
     if (!this.squares[idx] && !this.winner) {
@@ -39,7 +39,7 @@ export class BoardComponent implements OnInit {
     this.winner = this.calculateWinner();
   }
 
-  calculateWinner() {
+  calculateWinner(): string {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
